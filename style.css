@@ -115,8 +115,8 @@ body {
 .projects-section h1 {
     display: flex;
     align-self: center;
-    font-size: 45px;
-
+    font-size: 38px;
+    z-index: 3;
 }
 .project img{
     width: 90vh;
@@ -126,6 +126,34 @@ body {
 .project p{
     font-size: 25px;
     width: 50vh;
+}
+
+.project-description{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.project-description h2{
+    font-size: 35px;
+}
+.button-box{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.primary {
+    background-color: rgb(0, 5, 31);
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.primary:hover {
+    background-color: white;
+    color: rgb(0, 5, 31);
 }
 
 /* FORM */
