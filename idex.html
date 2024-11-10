@@ -9,26 +9,76 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="header">
-            <div class="logo"></div>
-            <a>Home</a>
-            <a>Projects</a>
-            <a href="cv.html">CV</a>
-            <a>Contact</a>
+        <div class="header-container">
+            <div class="logo">
+                <a><img src="logo.png"></a>
+            </div>
+            <div class="navigation">
+                <a>Home</a>
+                <a>Projects</a>
+                <a href="cv.html">CV</a>
+                <a>Contact</a>
+            </div>
         </div>
         <div class="main-page-container">
-            
+            <div class="my-Info">
+                <h1>Jakub Smilowski</h1>
+                <p>Hi, i am frontend developer located in denmark</p>
+            </div>
+            <div class="my-Image">
+                <img id="portrait" src="portrait.JPG">
+            </div> 
         </div>
         <div class="projects-section">
-
+            <h1>Recent Projects</h1>
+            <div class="project">
+                <div class="image-box">
+                    <a class="arrow"><</a>
+                    <a><img src="portrait.JPG"></a>
+                    <a class="arrow">></a>
+                </div>
+                <div class="description-box">
+                    <h2>Project1</h2>
+                    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure voluptates perspiciatis nisi iusto sint. Assumenda voluptatum omnis sunt quo possimus voluptas explicabo magnam facilis suscipit. Modi eos minus non repellendus.</p>
+                </div>
+            </div>
+            <div class="project">
+                
+                <div>
+                    <h2>Project2</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure voluptates perspiciatis nisi iusto sint. Assumenda voluptatum omnis sunt quo possimus voluptas explicabo magnam facilis suscipit. Modi eos minus non repellendus.</p>
+                </div>
+                <div class="image-box">
+                    <a class="arrow"><</a>
+                    <a><img src="portrait.JPG"></a>
+                    <a class="arrow">></a>
+                </div>
+            </div>
+            <div class="project">
+                <div class="image-box">
+                    <a class="arrow"><</a>
+                    <a><img src="portrait.JPG"></a>
+                    <a class="arrow">></a>
+                </div>
+                <div>
+                    <h2>Project3</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure voluptates perspiciatis nisi iusto sint. Assumenda voluptatum omnis sunt quo possimus voluptas explicabo magnam facilis suscipit. Modi eos minus non repellendus.</p>
+                </div>
+            </div>
         </div>
         <div class="form-section">
-
+            <h1>Get in touch</h1>
+            <form class="form-box">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <textarea placeholder="Message"></textarea>
+                <button>Send</button>
+            </form>
         </div>
         <div class="footer">
-            
+            <h3>2024 Jakub Smilowski</h3>
         </div>
-        
         <script src="script.js" async defer></script>
     </body>
 </html>
