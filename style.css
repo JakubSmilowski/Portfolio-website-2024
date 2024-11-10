@@ -1,10 +1,19 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
 body {
     background-color: rgb(0, 5, 31);
     color: white;
     font-family: Consolas;
+
+    height: 100%; /* Ensures scrolling */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    scroll-snap-type: y mandatory; 
+    
 }
 
 .header-container {
@@ -33,6 +42,9 @@ body {
     gap: 2rem;
     background-color:rgb(0, 5, 31);
     z-index: 20;
+    scroll-snap-align: start;
+    
+    
 }
 
 .my-Info {
@@ -70,15 +82,21 @@ body {
     padding: 1rem 2rem;
     height: 100%;
     z-index: 10;
+    scroll-snap-align: start;
+    scroll-snap-type: y mandatory; 
+    
 }
 
 .project {
     display: flex;
     flex-direction: row;
-    gap: 8rem;
     justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    height: 80vh;
     margin-top: 10vh;
     margin-bottom: 30vh;
+    scroll-snap-align: start;
     
 }
 
@@ -101,13 +119,13 @@ body {
 
 }
 .project img{
-    width: 60vh;
+    width: 90vh;
     height: 60vh;
-    object-fit: cover;
+    object-fit: scale-down;
 }
 .project p{
     font-size: 25px;
-    width: 40vh;
+    width: 50vh;
 }
 
 /* FORM */
@@ -118,6 +136,8 @@ body {
     gap: 1rem;
     padding: 1rem 2rem;
     z-index: 10;
+    scroll-snap-align: start; 
+    
 }  
 .form-section h1 {
     display: flex;
