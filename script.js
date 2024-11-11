@@ -1,13 +1,10 @@
-const projectImage = document.querySelector('.project-image');
-const rightArrow = document.getElementById('arrow-right');
-const imageSrc1 = 'project1photo1.png';
-const imageSrc2 = 'project1photo2.png';
-const imageSrc3 = 'projecr1photo3.png';
+const arrowRight = document.querySelector(".arrow-right");
+const arrowLeft = document.querySelector(".arrow-left");
 
-rightArrow.addEventListener('click', () => {
-  if (projectImage.src.includes(imageSrc1)) {
-    projectImage.src = imageSrc2;
-  } else {
-    projectImage.src = imageSrc1;
-  }
-});
+arrowRight.addEventListener("click", () => {
+  console.log("right");  
+})
+
+arrowLeft.addEventListener("click", () => {
+  console.log("left");  
+})
