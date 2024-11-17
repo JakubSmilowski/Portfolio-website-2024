@@ -233,6 +233,7 @@ body::-webkit-scrollbar {
     align-items: center;
     justify-content: center;
     gap: 1rem;
+    
     z-index: 3;
 } 
 
@@ -255,7 +256,10 @@ body::-webkit-scrollbar {
 
 .send {
     grid-column: span 2;
-    max-width: 50vh;
+    padding: 2vh 15vh 2vh 15vh;
+    text-transform: uppercase;
+    align-self: center;
+    justify-self: center;
 }
 
 /* FOOTER */
