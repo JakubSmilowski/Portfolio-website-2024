@@ -215,7 +215,7 @@ body::-webkit-scrollbar {
     flex-direction: column;
     max-height: fit-content;
     gap: 1rem;
-    padding: 1rem 2rem;
+    padding: 1rem 10rem 1rem 10rem;
     z-index: 20;
     scroll-snap-align: start; 
     
@@ -228,12 +228,35 @@ body::-webkit-scrollbar {
 }
 .form-box
 {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
     gap: 1rem;
-    padding: 1rem 2rem;
     z-index: 3;
 } 
+
+.name-input {
+    padding: 2vh;
+    font-size: 16px;
+}
+
+.email-input {
+    padding: 2vh;
+    font-size: 16px;
+}
+
+.message-input {
+ grid-column: span 2;  
+ font-size: 16px;
+ padding: 4vh;
+ min-height: fit-content;
+}
+
+.send {
+    grid-column: span 2;
+    max-width: 50vh;
+}
 
 /* FOOTER */
 
