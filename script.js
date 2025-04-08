@@ -2,7 +2,7 @@ var imageSources = [
   ["/assets/project1photo1.png","/assets/Project1photo2.png","/assets/project1photo3.png"],
   ["/assets/project2photo1.png","/assets/Project2photo2.png","/assets/Project2photo3.png"],
   ["/assets/project3photo1.png","/assets/Project3photo2.png"],
-  ["/assets/project4photo1.png"]
+  ["/assets/project4photo1.png","/assets/project4photo2.png","/assets/project4photo3.png"],
 ];
   function changeImage(id, flag) {
     console.log(id,flag);
