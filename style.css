@@ -265,6 +265,10 @@ body::-webkit-scrollbar {
  min-height: fit-content;
 }
 
+.file-input {
+    font-size: 14px;
+}
+
 .send {
     grid-column: span 2;
     padding: 2vh 15vh 2vh 15vh;

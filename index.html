@@ -189,15 +189,18 @@ I implemented the design for SyncLink's website, translating concepts into a fun
         
             <div id="contact" class="form-section">
                 <h1>Get in touch</h1>
-                <form class="form-box" target="_blank" action="https://formsubmit.co/a95b7b58faef6aeeecc37c7e5c6325e8" method="POST">
+                <form class="form-box" target="_blank" action="https://formsubmit.co/a95b7b58faef6aeeecc37c7e5c6325e8" method="POST" enctype="multipart/form-data">
                     <input class="name-input" type="text" name="name"  placeholder="Full Name" required>
                     <input class="email-input" type="email" name="email" placeholder="Email Address" required>
                     <textarea class="message-input" placeholder="Your Message"  name="message" rows="10" required></textarea>
+                    <input class="file-input" type="file" name="attachment" accept="image/png, image/jpeg, document/pdf, document/doc, document/txt">
                     <button class="send primary" type="submit" >Submit Form</button>
                     <input type="hidden" name="_next" value="https://jakubsmilowski.netlify.app/pages/thanks.html">
+                    <input type="hidden" name="_autoresponse"
+                        value="Thanks for reaching out! I will answer your message as soon as possible. Have a nice day!">
+                    
                 </form>
               </div>
-        
         <div class="footer">
             <h3>2025 Jakub Smilowski</h3>
         </div>
