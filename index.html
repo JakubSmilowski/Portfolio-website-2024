@@ -187,23 +187,13 @@ I implemented the design for SyncLink's website, translating concepts into a fun
                 </div>
             </div>
         
-            <div class="container">
-                <h1>FormSubmit Demo</h1>
-                <form target="_blank" action="https://formsubmit.co/a95b7b58faef6aeeecc37c7e5c6325e8" method="POST">
-                  <div class="form-group">
-                    <div class="form-row">
-                      <div class="col">
-                        <input type="text" name="name" class="form-control" placeholder="Full Name" required>
-                      </div>
-                      <div class="col">
-                        <input type="email" name="email" class="form-control" placeholder="Email Address" required>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
-                  </div>
-                  <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+            <div id="contact" class="form-section">
+                <h1>Get in touch</h1>
+                <form class="form-box" target="_blank" action="https://formsubmit.co/a95b7b58faef6aeeecc37c7e5c6325e8" method="POST">
+                    <input class="name-input" type="text" name="name"  placeholder="Full Name" required>
+                    <input class="email-input" type="email" name="email" placeholder="Email Address" required>
+                    <textarea class="message-input" placeholder="Your Message"  name="message" rows="10" required></textarea>
+                    <button class="send primary" type="submit" >Submit Form</button>
                 </form>
               </div>
         
