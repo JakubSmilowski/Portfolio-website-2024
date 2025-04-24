@@ -11,19 +11,15 @@ Personal portfolio showcasing my software engineering projects.
 ## 🧠 About Me
 
 I'm **Jakub Smilowski**, a Software Engineering student at SDU in Denmark.  
-Currently a front-end developer intern at SyncLink, building client-facing web apps in **Angular**.  
+Currently a front-end developer, building client-facing web apps in **Angular**.  
 Keen on modern web development, IoT experiments (e.g., with Raspberry Pi Pico), and gamified UX.
-
-I’m also passionate about **bouldering**, and building digital tools that support healthy and active lifestyles.
 
 ---
 
 ## ✨ Features
 
-- Lazy loading and routing for performance
 - Custom contact form with form validation
 - CV download integration
-- Climbing channel links and social embeds
-
+  
 ---
 
