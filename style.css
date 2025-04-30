@@ -3,6 +3,9 @@ html{
 }
 *{
     z-index: 3;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 
@@ -197,6 +200,8 @@ body::-webkit-scrollbar {
     font-size: 30px;
     cursor: pointer;
     margin: 0 10px;
+    user-select: none;
+   
 }
 
 .arrow :hover {
